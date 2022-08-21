@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.section-1,
+.section-2 {
+    background-color: #1F2937;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-3 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    margin: 50px;
+}
+
+.four-boxes {
+    display: flex;
+    gap: 32px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.box img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    margin-top: 100px;
+    max-height: 325px;
+
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 200px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    max-width: 400px;
+}
+
+.inspiring-quote {
+    text-align: left;
+    font-style: italic;
+}
+
+.thor {
+    text-align: right;
+
+}
+
+.section-5 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background-color: blue;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin: 100px;
+    color: white;
+    padding-left: 50px;
+    gap: 5px;
+
+}
+
+.section-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: navy;
+    color: white;
+   
+}
+
+.cta-button {
+    padding-right: 50px;
+}
+
+.left-links {
+    margin: auto;
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.right-links {
+    margin: auto;
+    display: flex;
+    font-size: 16px;
+    color: #aeaeae;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+ul li {
+
+    list-style-type: none;
+}
+
+
+
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 100px;
+
+
+}
+
+.right-image {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+button {
+
+    max-width: 100px;
+    padding: 10px;
+
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
